@@ -3,4 +3,4 @@ The purpose of this application is to create an easy to use and simple blog appl
  
 https://vonnyblogs.herokuapp.com/
 
-Deployed site : https://vonnyblogs.netlify.app/blog
+Deployed site : https://vonnyblogs.netlify.app/
