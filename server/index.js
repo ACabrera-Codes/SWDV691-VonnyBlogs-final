@@ -13,6 +13,10 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Hello to Vonnyblogs API')
+});
+
 const CONNECTION_URL = 'mongodb+srv://Acabrera:P3nny77@cluster0.uiylj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
