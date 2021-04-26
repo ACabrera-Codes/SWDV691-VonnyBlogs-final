@@ -1,27 +1,30 @@
-import React from 'react';
-import { Container, Grow, Grid } from '@material-ui/core';
+import React from "react";
 
-// import { getPosts } from '../actions/posts';
-// import Posts from './Posts/Posts';
-
-const Home = () => {
- 
+function Home() {
   return (
-    <Container maxWidth="lg">
-    <Grow in>
-      <Container>
-        <Grid container justify="space-between" alignItems="stretch" spacing={3}>
-          <Grid item xs={12} sm={7}>
-          {/* <Posts  /> */}
-          </Grid>
-          <Grid item xs={12} sm={4}>
-          <h1 className="font-weight-light">How About We Blog About It!?</h1>
-          </Grid>
-        </Grid>
-      </Container>
-    </Grow>
-  </Container>
-);
-};
+    <div className="about">
+      <div class="container">
+        <div class="row align-items-center my-5">
+          <div class="col-lg-7">
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="https://media.giphy.com/media/26uflx833zUfLpSP6/giphy.gif"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-5">
+            <h1 class="font-weight-light">Welcome! ♥</h1>
+            <p>
+            My name is Avontece, and I will be using this blog to highlight 
+            the voices and topics that I find interesting and important. Please feel free to 
+            check out the contact page to reach me or the submissions page to submit your own blog posts!
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default Home;

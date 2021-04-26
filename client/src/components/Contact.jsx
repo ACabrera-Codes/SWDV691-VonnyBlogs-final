@@ -6,14 +6,14 @@ function Contact() {
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">          
-          <form className="my-form" action="" method="post">
+          {/* <form className="my-form" action="" method="post">
             <div className="field">
               <label for="name">Name</label>
               <input type="text" name="name" id="name" required />
             </div>
             <div className="field">
               <label for="email">Email</label>
-              <input type="email" name="eemail" id="email" required />
+              <input type="email" name="email" id="email" required />
             </div>
             <div className="field">
               <label for="name">Message</label>
@@ -23,7 +23,7 @@ function Contact() {
               Send
             </button>
             
-          </form>
+          </form> */}
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">Let's Talk!</h1>

@@ -6,7 +6,7 @@ import { getPosts } from '../actions/posts';
 import Posts from './Posts/Posts';
 import Form from './Form/Form';
 
-const Admin = () => {
+const Blog = () => {
   const [currentId, setCurrentId] = useState(0);
   const dispatch = useDispatch();
 
@@ -32,4 +32,4 @@ const Admin = () => {
 );
 };
 
-export default Admin;
+export default Blog;
