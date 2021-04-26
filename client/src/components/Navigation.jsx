@@ -6,7 +6,7 @@ import mylogo from './images/mylogo.png';
 function Navigation(props) {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand-lg py-1 navbar-light bg-light shadow-sm">
+      <nav class="navbar navbar-expand-lg py-1 navbar-light bg-light shadow-sm mb-4">
       
         <div class="container ">
           <a class="navbar-brand" href="/">

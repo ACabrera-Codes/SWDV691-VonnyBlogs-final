@@ -13,7 +13,7 @@ function Home() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Welcome! ♥</h1>
+            <h1 class="font-weight-light" >Welcome! ♥</h1>
             <p>
             My name is Avontece, and I will be using this blog to highlight 
             the voices and topics that I find interesting and important. Please feel free to 
